@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Libro SYSTEM "ej2.dtd">
+<Libro Catalogo="número 14">
+    <Titulo>Aprendiendo Lenjuage de Marcas</Titulo>
+    <Seccion>2</Seccion>
+    <Contenido>
+        <Capitulo materia="XML">
+            <Tema>1</Tema>
+            <Tema>2</Tema>
+            <Tema>3</Tema>
+        </Capitulo>
+    </Contenido>
+    <Copyright>Free</Copyright>
+</Libro>

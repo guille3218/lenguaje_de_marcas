@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shiporder
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="ej4.xsd"
+    orderid="462">
+    <orderperson>PcComponentes</orderperson>
+    <shipto>
+        <name>Pedro Hidalgo</name>
+        <address>PHidalgo32@gmail.com</address>
+        <city>Barcelona</city>
+        <country>España</country>
+    </shipto>
+    <item>
+        <title>Pendrive</title>
+        <note>Pendrive Kingstone 32GB</note>
+        <quantity>3</quantity>
+        <price>19.06</price>
+    </item>
+    <item>
+        <title>Cable HDMI</title>
+        <quantity>1</quantity>
+        <price>12.32</price>
+    </item>
+    <item>
+        <title>HDD</title>
+        <note>Disco Duro Toshiba 1TB</note>
+        <quantity>1</quantity>
+        <price>30.00</price>
+    </item>
+</shiporder>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ej4</title>
+    <style>
+        table{
+            border: solid 1px grey;
+            background-color: lightyellow;
+        }
+        .pregunta{
+            text-align: right;
+            width: 150px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <table>
+            <tr>
+                <th colspan="3" style="background-color: goldenrod; height: 25px;">The World of Fruit</th>
+            </tr>
+            <tr>
+                <th colspan="3">Fruit Survey</th>
+            </tr>
+            <tr>
+                <td class="pregunta"><label for="name">Name</label></td>
+                <td><input type="text" name="name" value="Iain Tench"></td>
+            </tr>
+            <tr>
+                <td class="pregunta"><label for="address">Address</label></td>
+                <td><input type="text" name="address" value="10 The Avenue"></td>
+            </tr>
+            <tr>
+                <td class="pregunta"><label for="email">Email</label></td>
+                <td><input type="text" name="email"></td>
+                <td style="color: red; width: 300px;">Missing</td>
+            </tr>
+            <tr>
+                <td class="pregunta"><label for="pieces">How many pieces of fruit do you eat per day?</label></td>
+                <td>
+                    <p><input type="radio" name="pieces" value="0">0</p>
+                    <p><input type="radio" name="pieces" value="1">1</p>
+                    <p><input type="radio" name="pieces" value="2">2</p>
+                    <p><input type="radio" name="pieces" value="more">More than 2</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="pregunta"><label for="favourite">My favourite fruit</label></td>
+                <td>
+                    <select name="favourite" multiple>
+                        <option value="apple">Apple</option>
+                        <option value="banana">Banana</option>
+                        <option value="plum">Plum</option>
+                        <option value="pomegranate">Pomegranate</option>
+                        <option value="watermelon">Watermelon</option>
+                        <option value="melon">Melon</option>
+                        <option value="pineapple">Pineapple</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="pregunta"><label for="brochure">Would you like a brochure?</label></td>
+                <td><input type="checkbox" name="brochure"></td>
+            </tr>
+            <tr>
+                <td colspan="3" style="padding-left: 150px;"><button type="submit">Submit</button></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

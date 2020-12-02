@@ -1,0 +1,1 @@
+No se muestran de la misma forma porque no tienen la misma clase.

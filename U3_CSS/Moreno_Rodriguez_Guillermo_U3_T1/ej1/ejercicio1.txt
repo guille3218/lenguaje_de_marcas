@@ -1,0 +1,9 @@
+El primer elemento que encontramos es la etiqueta body, en ella se indica el color del fondo.
+En el segundo elemento se indica el color de letra de las etiquetas h1
+El siguiente elemento indica el color de la etiqueta hr, esta es la linea que se usa para separar.
+En el siguiente elemento se indica que el tamaño de la letra todo los párrafos sean de 12pt y que el margen izquierdo sea de 15px.
+En el siguiente elemento se indica que los parrafos que tengan la clase "verse" el color de letra sea marron y tengan un margen izquierdo de 60px.
+El siguiente elemento indica que el link de las etiquetas a sea de color verde.
+El siguiente elemento indica que si el link de las etiquetas a si están visitados sea de color amarillo.
+El siguiente elemento indica que si el cursor esta encima del link de las etiquetas a, el link sea de color negro. 
+El siguiente elemento indica que al hacer click en el link de las etiquetas a, este sea de color azul.

@@ -1,0 +1,160 @@
+*{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+p,h1,h2,h3,h4,h5,h6,aside,div,input{
+    margin: 0;
+    padding: 0;
+}
+
+/*Centrar container*/
+
+.container{
+    margin: 0 auto;
+    width: 100%;
+    color: white;
+}
+
+/*Header*/
+
+header div{
+display: inline-block;
+width: 40%;
+}
+
+aside{
+    float: right;
+    width: 50%;
+    height: 103;
+}
+
+aside p{
+    float: right;
+    width: 41%;
+}
+
+
+/*Tamaños elementos header*/
+#logotipo{
+ width: 60%;
+}
+
+#lupa{
+    margin: 0;
+    width: 10%;
+}
+
+#bandera{
+    clear: right;
+    width: 6%;
+    margin-top: 30px;
+}
+
+.china{
+    margin-left: 580px;
+}
+
+/*Nav*/
+
+nav{
+    background-color:rgb(228, 15, 146);
+}
+
+nav ul{
+    padding: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 20px;
+}
+
+nav ul li:hover{
+    background-color: blue;
+    color: black;
+}
+
+/*main*/
+
+main{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.tweets{
+    float: right;
+    color: black;
+    width: 28%;
+}
+
+.tweets img{
+    width: 100%;
+}
+/* Banner */
+.banner{
+    position: relative;
+    color: rgb(228, 15, 146);
+    font-weight: bolder;
+    font-size: 2em;
+    width: 70%;
+}
+
+.banner img{
+    width: 100%;
+}
+
+.izquierda{
+    position: absolute;
+    left: 2%;
+    top:50%;
+}
+
+.derecha{
+    position: absolute;
+    right: 2%;
+    top: 50%;
+}
+
+.centro{
+    position:absolute;
+    top: 80%;
+    left: 40%;
+}
+
+
+/* Articulos */
+
+.article{
+    display: inline-block;
+    border:solid 1px  rgb(228, 15, 146);
+    border-radius: 10px;
+    width: 20%;
+    text-align: center;
+    color: black;
+    height: 300px;
+    margin:25px;
+}
+
+.article img{
+    width: 60%;
+    margin-top: 50px;
+}
+
+.article p {
+    font-size: 20px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+/*Footer*/
+
+footer{
+    background-color:  rgb(228, 15, 146);
+    padding: 20px;
+}
+
+footer p{
+    width: 30%;
+    margin: 0 auto;
+}

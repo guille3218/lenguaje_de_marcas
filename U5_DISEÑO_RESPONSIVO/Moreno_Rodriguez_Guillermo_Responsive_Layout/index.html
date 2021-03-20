@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Layout</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@600&display=swap" rel="stylesheet"> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <div class="icon"><i class="fa fa-bars fa-2x"></i></div>
+                <div class="menu_item" id="menu_item">BUSINESS</div>
+                <div class="menu_item" id="menu_item">SUBSCRIPTIONS</div>
+                <div class="menu_item" id="menu_item">WEDDINGS</div>
+            </nav>
+            <div class="logo" id="logo">
+                <h1>HBLOOM</h1>
+            </div>
+            <div class="buttons">
+                <button class="HeaderButton" id="contactus">CONTACT US</button>
+                <button class="HeaderButton">LOG IN</button>
+            </div>
+        </header>
+        <main>
+            <section class="FlowerWallpaper">
+                    <div class="PerfectTouch"> 
+                        <h1>THE <br/> PERFECT TOUCH</h1>
+                        <p>Custom floral arrangements tailored to your style and space. Starting of $75 per delivery.</p>
+                        <p>Schedule a complimentary design consultation today.</p>
+                    </div>
+                    <div class="formulario">
+                        <form action="">
+                            <label for="name">FULL NAME</label>
+                            <input type="text" name="name" id="name">
+                            <label for="phone">PHONE</label>
+                            <input type="text" name="phone" id="phone">
+                            <label for="email">EMAIL</label>
+                            <input type="text" name="email" id="email">
+                            <label for="city">CITY</label>
+                            <select name="city" id="city">
+                                <option value="sevilla">Sevilla</option>
+                                <option value="Huelva">Huelva</option>
+                                <option value="Cadiz">Cádiz</option>
+                                <option value="Malaga">Málaga</option>
+                                <option value="Cordoba">Córdoba</option>
+                                <option value="Granada">Granada</option>
+                            </select>
+                            <label for="comments">COMMENTS</label>
+                            <textarea name="comments" id="comments" cols="30" rows="4"></textarea>
+                            
+                            <button type="submit" id="submit">Submit</button>
+                        </form>
+                    </div>
+                    <div class="triangle-left"></div>
+                    <div class="triangle-right"></div>
+            </section>
+
+            <section class="howitworks">
+                <div><h1>HOW IT WORKS</h1></div>
+                <div class="howitworksps">
+                    <div class="howitworksp">
+                        <p class="number">-1-</p>
+                        <p>DESIGN</p>
+                        <p>Your personal design consultigent meets with you to discuss style, preferences and space.</p>
+                    </div>
+                    <div class="howitworksp">
+                        <p class="number">-2-</p>
+                        <p>SCHEDULE</p>
+                        <p>We provide a custom peoposal for floral service based on your schedule[weekly, biweekly or monthly].</p>
+                    </div>
+                    <div class="howitworksp">
+                        <p class="number">-3-</p>
+                        <p>ENJOY</p>
+                        <p>We hand deliver your custom arragements for you to enjoy. It's that simple.</p>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="gallery">
+                <div class="gallery_item"><img src="img/Flower1.jpg" alt="flower1"></div>
+                <div class="gallery_item"><img src="img/Flower2.jpg" alt="flower2"></div>
+                <div class="gallery_item"><img src="img/Flower3.jpeg" alt="flower3"></div>
+            </section>
+        </main>
+    </div>
+    <script>
+        $(function() {
+            //Captura del evento para mostrar u ocultar
+            $(".icon").click(function() {
+            $(".menu_item").toggle();
+                if(document.getElementById("menu_item").style.display!="none"){
+                    document.getElementById("logo").style.marginLeft="0px";
+                }else{
+                    document.getElementById("logo").style.marginLeft="132px";
+                }
+                }
+            );
+            $(window).resize(function() {
+            var anchura = $(this).width();
+            if (anchura > 576) {
+                $(".menu_item").show();
+            }
+            });
+        });
+    </script>
+</body>
+</html>

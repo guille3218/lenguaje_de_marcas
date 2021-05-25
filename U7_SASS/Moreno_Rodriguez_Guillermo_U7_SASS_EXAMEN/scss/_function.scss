@@ -1,0 +1,7 @@
+/// Funcion que devuelve el tamaño
+/// @parameter {integer} $tam - Numero por el que se multiplicará el tamaño
+/// @return {integer}
+
+@function fontSizes($tam) {
+    @return 16*$tam;
+}

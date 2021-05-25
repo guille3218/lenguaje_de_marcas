@@ -1,0 +1,23 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+}
+
+.container{
+    @include centrado(0,88);
+    color: $color;
+    background-color: $background-color;
+    padding:30px;
+    position: relative;
+}
+
+/// Tamaño dependiendo de la clase font
+@each $k, $v in $tamano-map {
+    .font-#{$k} {
+      font-size: fontSizes($v)+px;
+    }
+  }

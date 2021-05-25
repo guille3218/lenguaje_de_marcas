@@ -1,0 +1,27 @@
+/// Mixin para centrar elementos
+/// @parameter {integer} $margin - Tamaño del margen
+/// @parameter {integer} $width - Numero para el porcentaje de la anchura
+@mixin centrado($margin,$width) {
+    margin: #{$margin}+"px" auto;
+    width: #{$width}+"%";
+}
+
+
+/// Mixin para dar forma al SideBar
+/// @parameter {} $position - Posicion del SideBar
+/// @parameter {integer} $width - Numero para el porcentaje de la anchura
+/// @parameter {integer} $height - Numero para el tamaño de la altura
+/// @parameter {color} $color - Color de los carácteres
+/// @parameter {color} $background-color - Color del fondo
+/// @parameter {color} $border-color - Color del borde
+
+
+@mixin placeSideBar($position,$width,$height,$color,$background-color,$border-color){
+    $position : 1;
+    width: $width+"%";
+    height:  #{$height}px;
+    color: $color;
+    background-color: $background-color;
+    border-color: $border-color;
+
+}

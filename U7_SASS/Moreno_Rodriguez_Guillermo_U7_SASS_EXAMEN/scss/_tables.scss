@@ -1,0 +1,34 @@
+/// Estilos para la tabla
+.table{
+    @include centrado(0,40);
+
+    /// Estilos cabecera
+    .header{
+        display: flex;
+        p{
+            font-size: 40px;
+            margin: 20px auto;
+        }
+
+        border-bottom:1px solid $pBorder-color;
+        
+    }
+
+    /// Estilos filas
+    .row{
+
+
+        display: flex;
+        p{
+            &:hover{
+                background-color: $pHover-background-color;
+                color:$pHover-color;
+            }
+
+            
+            padding-right: 150px;
+            margin: 0px;
+        }
+
+    }
+}

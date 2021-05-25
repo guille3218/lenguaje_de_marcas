@@ -1,0 +1,39 @@
+/// Colores generales
+$dark-theme: false;
+$color: #000000;
+$background-color: #dddddd;
+
+/// Colores Tabla
+$pHover-background-color: red;
+$pHover-color:#FFFFFF;
+$pBorder-color: #000000;
+
+/// Colores sidebar
+
+$sidebar-color:#000000;
+$sidebar-background-color:#FFFFFF;
+$sidebar-border-color:green;
+$sidebar-position: left;
+$sidebar-order: -1;
+
+/// Mapa para el tamaño
+
+$tamano-map:(
+    "xs":1,
+    "s":2,
+    "m":3,
+    "lg":4,
+    "xl":5
+);
+
+/// Dark-theme
+
+@if $dark-theme {
+    $color:#dddddd;
+    $background-color: #1d1d1d;
+    $sidebar-border-color:red;
+    $sidebar-position: right;
+    $pBorder-color: #dddddd;
+    $sidebar-order: 1;
+} 
+

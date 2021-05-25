@@ -1,0 +1,84 @@
+.sidebar {
+  border: 1px solid;
+  border-radius: 10px;
+  margin: 0px auto;
+  width: 20%;
+  margin-top: 20%;
+  order: -1;
+  width: "10%";
+  height: 200px;
+  color: #000000;
+  background-color: #FFFFFF;
+  border-color: green;
+}
+.sidebar img {
+  margin: 0px auto;
+  width: 40%;
+  margin-left: 50px;
+}
+.sidebar nav ul li {
+  list-style-type: none;
+}
+
+.table {
+  margin: 0px auto;
+  width: 40%;
+}
+.table .header {
+  display: flex;
+  border-bottom: 1px solid #000000;
+}
+.table .header p {
+  font-size: 40px;
+  margin: 20px auto;
+}
+.table .row {
+  display: flex;
+}
+.table .row p {
+  padding-right: 150px;
+  margin: 0px;
+}
+.table .row p:hover {
+  background-color: red;
+  color: #FFFFFF;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+}
+
+.container {
+  margin: 0px auto;
+  width: 88%;
+  color: #000000;
+  background-color: #dddddd;
+  padding: 30px;
+  position: relative;
+}
+
+.font-xs {
+  font-size: 16px;
+}
+
+.font-s {
+  font-size: 32px;
+}
+
+.font-m {
+  font-size: 48px;
+}
+
+.font-lg {
+  font-size: 64px;
+}
+
+.font-xl {
+  font-size: 80px;
+}
+
+/*# sourceMappingURL=styles.css.map */

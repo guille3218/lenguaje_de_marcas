@@ -1,0 +1,26 @@
+/// Estilos para el SideBar
+.sidebar{
+
+
+    border: 1px solid;
+    border-radius: 10px;
+    @include centrado(0,20);
+    margin-top: 20%;
+
+    order: $sidebar-order;
+
+    @include placeSideBar($sidebar-position,10,200,$sidebar-color,$sidebar-background-color,$sidebar-border-color);
+
+    img{
+        @include centrado(0,40);
+        margin-left:50px;
+    }
+
+    nav{
+        ul{
+            li{
+                list-style-type: none;
+            }
+        }
+    }
+}
